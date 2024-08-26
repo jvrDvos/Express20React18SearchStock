@@ -1,0 +1,311 @@
+  .formularios-Project {
+    width: 370px;
+    margin-top: 18px 0px 0px 0pc;
+    box-shadow: 0 15px 15px 0 #2052db9a;
+    background-color: #fff;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: #8ba5ec86;
+    position: fixed;
+    z-index: 6;
+    left: 35%;
+    top: 2%;
+  }
+ 
+  .form {
+    position: relative;
+    margin: 25px 20px 0 0;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px 0px 15px 15px;
+    width: 360px;
+    height: 535px;
+    }
+  
+  .form-delete {
+    margin: 25px 20px 0 0;
+    box-shadow: 0 15px 15px 0 #2052db9a;
+    background-color: #fff;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: #8ba5ec86;
+    position: fixed;
+    z-index: 6;
+    left: 35%;
+    top: 10%;
+    align-items: center;
+    justify-content: center;
+    width: 360px;
+    height: 185px;
+  }
+  
+  .form-title {
+    width: auto;
+    margin: -30px 0px 0px 0px;
+  }
+  
+  .form-error {
+    color: red;
+    width: auto;
+    margin: 10px 0px 0px 0px;
+  } 
+  
+  .subtitleDelete {
+    margin: 30px 0px 0px 0px;
+  }
+
+  .subtitle {
+    margin: 30px 0px 0px 0px;
+  }
+  
+  .divArea {
+    font-size: 18px;
+    width: 100%;
+    height: 80px;
+    max-height: 95px;
+  }
+  
+  .form-header {
+    color: #555;
+    font-size: 25px;
+    font-weight: 600px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin: -20px 0 10px 0;
+  }
+
+  .form-horztal{
+    margin: 0px auto;
+    height: auto;
+    position: absolute;
+    font-family: 'Arimo', sans-serif;
+    text-align: center;
+    padding: 50px 30px 50px;
+  }
+  
+  .form-horztal .imput-group{
+    height: 50px;
+    margin: 0 auto 24px;
+  }
+  .form-horztal .imput-group:nth-last-child(2){ margin-bottom: 20px; }
+  .form-horztal .imput-group:last-child{ margin: 0; }
+  .form-horztal .imput-group>i{
+    color: #999;
+    transform: translateY(-50%);
+    position: absolute;
+    left: 5px;
+  }
+  
+  .form-horztal .form-control{
+    color: #2a398bea;
+    background-color: #fff;
+    font-size: 17px;
+    letter-spacing: 1px;
+    height: 40px;
+    padding: 5px 10px 2px 25px;
+    box-shadow: 0 0 0 0 transparent;
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    border-radius: 0;
+    display: inline-block;
+  }
+  
+  .form-horztal .form-file {
+    display: inline-block;
+    position: relative;
+    width: 250px;
+    height: 40px;
+    margin: 20px 0px 0px 0px;
+  }
+  
+  .form-horztal .form-file input[type="file"] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .form-horztal .form-file label {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #2a398bea;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .form-horztal .form-file label:hover {
+    background-color: #1e2a5a;
+  }
+  
+  .form-control::placeholder{
+    color: rgba(0,0,0,0.2);
+    font-size: 17px;
+  }
+  .form-horztal .form-control:focus{
+    border-bottom: 1px solid #7AB6B6;
+    box-shadow: none;
+  }
+  
+  .form-btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+  }
+
+  .form-btns-project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin: 0px 0px -50px 0px;
+  }
+  
+  .form-btn {
+    width: 220px;
+  }
+  
+  .form-horztal .btn-default{
+    color: #7AB6B6;
+    background-color: #EDF6F5;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    width: auto;
+    height: auto;
+    padding: 7px 30px;
+    margin: 25px;
+    border: none;
+    display: block;
+    position: relative;
+    transition: all 0.3s ease;
+  }
+  
+  .form-horztal .btn-default:focus,
+  .form-horztal .btn-default:hover{
+    color: #fff;
+    background-color: #7AB6B6;
+  }
+  
+  .form-horztal .btn-default:before,
+  .form-horztal .btn-default:after{
+    content: '';
+    background-color: #7AB6B6;
+    height: 50%;
+    width: 2px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    transition: all 0.3s;
+  }
+  
+  .form-horztal .btn-default:after{
+    bottom: auto;
+    top: 0;
+    left: auto;
+    right: 0;
+  }
+  .form-horztal .btn-default:hover:before,
+  .form-horztal .btn-default:hover:after{
+    height: 100%;
+    width: 50%;
+    opacity: 0;
+  }
+  
+  .form-horztal .btn-close{
+    color: #b68b7a;
+    background-color: #EDF6F5;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    width: auto;
+    height: auto;
+    padding: 7px 30px;
+    margin: 25px;
+    border: none;
+    display: block;
+    position: relative;
+    transition: all 0.3s ease;
+  }
+  
+  .form-horztal .btn-close:focus,
+  .form-horztal .btn-close:hover{
+    color: #fff;
+    background-color: #b68b7a;
+  }
+  
+  .form-horztal .btn-close:before,
+  .form-horztal .btn-close:after{
+    content: '';
+    background-color: #b68b7a;
+    height: 50%;
+    width: 2px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    transition: all 0.3s;
+  }
+  
+  .form-horztal .btn-close:after{
+    bottom: auto;
+    top: 0;
+    left: auto;
+    right: 0;
+  }
+  
+  .form-horztal .btn-close:hover:before,
+  .form-horztal .btn-close:hover:after{
+    height: 100%;
+    width: 50%;
+    opacity: 0;
+  }
+
+  .newProduct {
+    box-shadow: 0 15px 15px 0 #0f462a9a;
+    background-color: #fff;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: #0f462a6b;
+    padding: 10px;
+  }
+  
+  
+  @media only screen and (max-width: 750px) {
+  
+    .formularios {
+        position: fixed;
+        z-index: 3;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      
+      .formularios-Project {
+        width: 370px;
+        margin-top: 18px;
+        box-shadow: 0 15px 15px 0 #2052db9a;
+        background-color: #fff;
+        border-radius: 25px;
+        border-style: solid;
+        border-color: #8ba5ec86;
+        position: fixed;
+        z-index: 4;
+        top: 50%;
+        left: 47%;
+        transform: translate(-50%, -50%);
+      }
+
+  }
+  
+  
+  
+  

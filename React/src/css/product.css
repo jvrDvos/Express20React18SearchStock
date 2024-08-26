@@ -1,0 +1,331 @@
+.width {
+  width: 100%;
+}
+
+.search-container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+  .talents-Search {
+    height: 25px;
+    border-radius: 5px;
+    width: 250px;
+    font-size: 18px;
+    margin: 15px 10px 0px 5px;
+  }
+  
+  .talents-fasearch {
+    margin-top: 14px;
+    margin-right: -10px;
+    padding: 2px;
+    font-size: 18px;
+    border: 2px solid rgba(0, 0, 0, 0.623);
+    border-radius: 5px;
+    width: 20px;
+    height: 22px;
+    background-color: rgba(250, 250, 250, 0.822);
+  }
+  
+  .screen-talents {
+    width: 100%;
+    min-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  
+  .list-talents {
+    margin-top: 45px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .talents {
+    margin: 5px;
+    padding: 5px;
+    background-color: rgba(195, 236, 236, 0.062);
+    box-shadow: 0 5px 5px 0 #2052db9a;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+  }
+  
+  .talents:hover {
+    margin: 8px;
+    padding: 5px;
+    background-color: rgb(252, 253, 253);
+    box-shadow: 15px 25px 25px 15px #2052db9a;
+    border-radius: 20px;
+    transition: all 0.5s ease;
+  }
+
+  .link-talents {
+    width: 300px;
+  }
+  
+  .talent-Jobs-title {
+    justify-content: center;
+  }
+  
+  .talent-Jobs-title h2 {
+    margin: 8px;
+  }
+  
+  .talent-Jobs-price {
+    margin: -10px 150px 10px 0; 
+  }
+
+  .img-presentation {
+    height: 170px;
+    width: 290px;
+    border-radius: 12px 12px 0px 0px;
+  }
+
+  .talents-flag {
+    margin-top: -20px;
+    width: 40px;
+    height: 30px;
+    border-radius: 3px;
+  }
+  
+  .img-jobs {
+    margin: 0px 10px 0px 10px;
+    width: 200px;
+    height: 130px;
+    border-radius: 3px;
+  }
+
+  .made-text {
+    text-align: justify;
+    margin: 4px;
+  }
+
+  .made-text .jobs {
+    display: flex;
+    overflow: auto;
+    height: 140px;
+  }
+  
+  .img-modal-comment {
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+  }
+
+  .comments {
+    top: -40px;
+  }
+
+  
+  .talents-description {
+    display: flex;
+    justify-content: space-between;
+}
+
+.talents-description .items-talents {
+    display: flex;
+}
+
+.talents-description .img-talents {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+
+.talents-description .talents-start {
+    display: flex;
+    align-items: center;
+}
+
+.talents-description .talents-start .start {
+  margin: 5px;
+  font-size: 20px;
+  color: rgba(206, 206, 21, 0.87);
+}
+
+.talents-modal {
+    background-color: rgb(252, 253, 253);
+    border-radius: 25px;
+    box-shadow: 0 8px 8px 0 #2052db63;
+    z-index: 2;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+    padding: 5px;
+}
+
+.items-talents .img-modal {
+  width: 120px;
+  height: 120px;
+  border-radius: 40px;
+  margin: 10px;
+}
+
+.items-talents .talents-modal-flag {
+  margin: 0px 0px 0px 20px;
+  width: 40px;
+  height: 30px;
+  border-radius: 3px;
+}
+
+.jobs-text .parrafo {
+  text-indent: 15px; /* Ajusta el valor según el espaciado deseado */
+}
+
+.btn-talents {
+  width: 100%;
+  justify-content: center;
+}
+
+.talents-btn {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.btn-close{
+    color: #b68b7a;
+    background-color: #EDF6F5;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    width: auto;
+    height: auto;
+    padding: 7px 30px;
+    margin: 25px;
+    border: none;
+    display: block;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.btn-close:focus,
+.btn-close:hover{
+    color: #fff;
+    background-color: #b68b7a;
+}
+
+.btn-close:before,
+.btn-close:after{
+    content: '';
+    background-color: #b68b7a;
+    height: 50%;
+    width: 2px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    transition: all 0.3s;
+}
+
+.btn-close:after{
+    bottom: auto;
+    top: 0;
+    left: auto;
+    right: 0;
+}
+
+.btn-close:hover:before,
+.btn-close:hover:after{
+    height: 100%;
+    width: 50%;
+    opacity: 0;
+}
+
+
+.btn-aply{
+    color: #3fce6a;
+    background-color: #d8eeeb;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    width: auto;
+    height: auto;
+    padding: 7px 30px;
+    margin: 25px;
+    border: none;
+    display: block;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.btn-aply:focus,
+.btn-aply:hover{
+    color: #fff;
+    background-color: #09f54fcb;
+}
+
+.btn-aply:before,
+.btn-aply:after{
+    content: '';
+    background-color: #09f54fcb;
+    height: 50%;
+    width: 2px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    transition: all 0.3s;
+}
+
+.btn-aply:after{
+    bottom: auto;
+    top: 0;
+    left: auto;
+    right: 0;
+}
+
+.btn-aply:hover:before,
+.btn-aply:hover:after{
+    height: 100%;
+    width: 50%;
+    opacity: 0;
+}
+
+
+@media screen and (max-width:767px) {
+  .talents-modal {
+    width: 350px;
+    background-color: rgb(252, 253, 253);
+    border-radius: 15px;
+    box-shadow: 0 10px 10px 0 #2052db63;
+    z-index: 2;
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+  .talents-modal-content {
+    max-height: 100vh;
+    overflow: auto;
+  }
+
+.items-talents .talents-modal-flag {
+  margin: 0px 0px 0px 20px;
+  width: 40px;
+  height: 30px;
+  border-radius: 3px;
+}
+
+    .jobs-text .jobs {
+      margin: 0px auto;
+      align-content: center;
+      display:contents;
+    }
+}
