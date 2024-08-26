@@ -39,6 +39,9 @@ Clone the project
   
 For the backend
 
+I use MongoDB compass.
+Create BD name; "Cool" and table "Items"
+
 Navagate to the backend folder, install dependencies and start the server.
 
 ```bash
